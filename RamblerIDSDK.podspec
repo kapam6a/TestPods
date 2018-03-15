@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license             = "MIT"
   s.authors             = { "Golovko Mikhail" => "m.golovko@rambler-co.ru" }
   s.homepage            = "https://gitlab.rambler.ru/cocoapods/RamblerIDSDK"
-  s.source              = { :git => "https://gitlab.rambler.ru/cocoapods/RamblerIDSDK.git", :tag => "release/#{s.version.to_s}" }
+  s.source              = { :git => "https://gitlab.rambler.ru/cocoapods/RamblerIDSDK.git", :commit => "abbbb88" }
   s.source_files        = "Source/**/*.{h,m}"
   s.resources           = "Framework/RamblerIDSDK.bundle"
   s.platform            = :ios, "8.0"
